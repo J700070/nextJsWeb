@@ -1,0 +1,127 @@
+:root {
+	--myBlack:#111111;
+	--myWhite: #f1f1f1;
+  }
+
+
+body{
+	color: var(--myWhite);
+	background-color: var(--myBlack);
+	font-size: larger;
+	font-family: Source Serif Pro Regular; 
+	font-variant-numeric: oldstyle-nums;
+	line-height: 1.60;
+	
+}
+h3{
+	font-variant: small-caps;
+	border-bottom:  1px dotted var(--myWhite);
+	letter-spacing: 2px;
+}
+
+.noindent{
+	text-indent: 0px;
+}
+p{
+	text-indent: 40px;
+}
+
+header{
+	text-align: center;
+}
+
+.abstract{
+	flex: 1 100%;
+	font-size: 110%;
+}
+
+blockquote {
+	color: var(--myWhite);
+	border-left: 5px solid var(--myWhite);
+	}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  }
+
+ul{
+	list-style-type: circle;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* unvisited link */
+ a:link {
+	color: var(--myWhite);
+  }
+  
+  /* visited link */
+  a:visited {
+	color: var(--myWhite);
+  }
+  
+  /* mouse over link */
+  a:hover {
+	color: var(--myWhite);
+  }
+  
+  /* selected link */
+  a:active {
+	color: var(--myWhite);
+  } 
+
+
+  .hrArticles {
+    border: none;
+	  width: 100%; 
+    border-top: 5px double var(--myWhite);
+    color: var(--myWhite);
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+}
+
+.hrArticles:after {
+	background: var(--myBlack);
+	content: 'Artículos';
+	font-size: xx-large;
+	letter-spacing: 4px;
+	padding: 0 8px;
+	position: relative;
+	top: -30px;
+}
+
+hr {
+    border: none;
+	width: 100%; 
+    border-top: 1px solid var(--myWhite);
+    color: var(--myWhite);
+    overflow: visible;
+    text-align: center;
+}
+
