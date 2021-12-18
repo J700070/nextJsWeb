@@ -3,7 +3,7 @@
 export default [
     {
         date: '1 de Noviembre de 2021',
-        slug: 'test-de-slug',
+        slug: 'test',
         title: 'Titulo de test'
     },
     {
